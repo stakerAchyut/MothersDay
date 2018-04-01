@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1606323.mothersday.MainActivity">
+
+    <ImageView
+        android:src="@drawable/layoutmotherday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="335dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="25dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mothersday"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Of all the special joys in life,  The big ones and the small        A mother's love and tenderness is the greatest of them all. "
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginRight="193dp"
+        android:textStyle="italic"
+        android:textColor="#660306"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Mother's Day"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#036152" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flowermday"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="75dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="195dp"
+        android:scaleType="fitXY"/>
+</RelativeLayout>
